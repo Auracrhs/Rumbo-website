@@ -1,0 +1,235 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:  'Architects Daughter', cursive;
+}
+
+header{
+    width: 100%;
+    background: url(../img/bg-header.png);
+    background-size: cover;
+    height: 100vh;
+}
+header nav{
+max-width: 1200px;
+width: 100%;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+header nav ul{
+    display: flex;
+}
+header nav ul li{
+    list-style: none;
+    margin: 0 20px;
+}
+header nav ul li a{
+    font-size: 22px;
+    color: rgb(255, 251, 0);
+    text-decoration: none;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    padding: 12px 30px;
+}
+header nav ul li a:hover {
+    border: 2px solid white;
+}
+header #hero{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 180px;
+}
+header #hero h1{
+    color: yellow;
+    font-size: 60px;
+    margin: 0;
+}
+header #hero h2{
+    color: white;
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 100px;
+}
+
+header #hero a{
+    background: yellow;
+    padding: 12px 40px;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 8px;
+    color: grey;
+    transition: .5s;
+}
+header #hero a:hover{
+    padding: 12px 60px;
+    border-radius: 0;
+    background: white;
+}
+/*SECCION PLANES*/
+#planes{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    background-color: #ffffff;  
+
+}
+
+#planes .container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+#planes h2{
+    font-size: 80px;
+    font-family: 'Architects Daughter', cursive;
+
+}
+
+#planes h3{
+    font-size: 25px;
+    font-family: 'Architects Daughter', cursive;
+
+}
+
+#planes p{ 
+    font-size: 20px;
+    font-family: 'Architects Daughter', cursive;
+
+}
+
+#planes .fila{
+  
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding-top: 70px;
+
+} 
+
+#planes .fila .card{
+    
+    position: relative;
+
+}
+#planes .fila .card h3{
+    position: absolute;
+    top: 97px;
+    left: 0;
+    right: 0;
+    font-size: 25px;
+    color: yellow; 
+    
+}
+
+ /*SECCION DESTINOS*/
+
+ #destinos{
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+    background: url(../img/bg-destinos.png); 
+    background-size: cover;
+
+ }
+
+
+#destinos .container .fila{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ #destinos .container h2{
+    color: yellow;
+    font-size: 80px;
+    font-family: 'Architects Daughter', cursive;
+
+ }
+ #destinos .fila{
+    display: flex;
+    justify-content: space-around;
+ }
+ #destinos .container .fila .card h3{
+    color: white;
+    font-size: 30px;
+    font-family: 'Architects Daughter', cursive;
+ }
+
+ /*SECCION CONTACTO*/
+ #contacto{
+    background: yellow;
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-family:'Architects Daughter', cursive;
+
+ }
+  #contacto .container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+
+  }
+
+  #contacto h2{
+    font-size: 50px;
+
+  }
+   #contacto p{
+    font-size: 20px;
+
+   }
+
+   #contacto input{
+    padding: 8px 15px;
+    font-size: 20px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 4px;
+  
+
+   }
+    
+   #contacto select{
+    padding: 8px 15px;
+    font-size: 20px;
+    width: 332px;
+    margin: 20px;
+    border-radius: 4px;
+
+   }
+
+   #contacto button{
+    padding: 10px 20px;
+    font-size: 20px;
+    background: rgb(168, 168, 2);
+    font-family: 'Architects Daughter', cursive;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    padding: 10px 30px;
+    margin-top: 30px;
+   }
+    
+   footer{
+    background: #000000;  
+    text-align: center;
+    color: white;
+    font-family: 'Architects Daughter', cursive;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+   }
+
+   html{
+       scroll-behavior: smooth;
+   }
